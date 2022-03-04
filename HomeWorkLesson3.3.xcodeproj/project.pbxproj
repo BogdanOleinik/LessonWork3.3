@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C00898727D20E32000CFDBE /* LessonWork3_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00898627D20E32000CFDBE /* LessonWork3_3App.swift */; };
+		9C00898727D20E32000CFDBE /* HomeWorkLesson3_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00898627D20E32000CFDBE /* HomeWorkLesson3_3App.swift */; };
 		9C00898927D20E32000CFDBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00898827D20E32000CFDBE /* ContentView.swift */; };
 		9C00898B27D20E33000CFDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00898A27D20E33000CFDBE /* Assets.xcassets */; };
 		9C00898E27D20E33000CFDBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C00898D27D20E33000CFDBE /* Preview Assets.xcassets */; };
@@ -15,11 +15,14 @@
 		9C00899727D21588000CFDBE /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00899627D21588000CFDBE /* UserManager.swift */; };
 		9C00899927D22995000CFDBE /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00899827D22995000CFDBE /* RegisterView.swift */; };
 		9C00899B27D23ED1000CFDBE /* StartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00899A27D23ED1000CFDBE /* StartedView.swift */; };
+		9C00899D27D256D1000CFDBE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00899C27D256D1000CFDBE /* DataManager.swift */; };
+		9C00899F27D2792A000CFDBE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C00899E27D2792A000CFDBE /* TimerView.swift */; };
+		9C0089A327D283CB000CFDBE /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0089A227D283CB000CFDBE /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C00898327D20E32000CFDBE /* LessonWork3.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonWork3.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C00898627D20E32000CFDBE /* LessonWork3_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonWork3_3App.swift; sourceTree = "<group>"; };
+		9C00898327D20E32000CFDBE /* HomeWorkLesson3.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkLesson3.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C00898627D20E32000CFDBE /* HomeWorkLesson3_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkLesson3_3App.swift; sourceTree = "<group>"; };
 		9C00898827D20E32000CFDBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C00898A27D20E33000CFDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C00898D27D20E33000CFDBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,6 +30,9 @@
 		9C00899627D21588000CFDBE /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		9C00899827D22995000CFDBE /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		9C00899A27D23ED1000CFDBE /* StartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartedView.swift; sourceTree = "<group>"; };
+		9C00899C27D256D1000CFDBE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9C00899E27D2792A000CFDBE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		9C0089A227D283CB000CFDBE /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +57,7 @@
 		9C00898427D20E32000CFDBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C00898327D20E32000CFDBE /* LessonWork3.3.app */,
+				9C00898327D20E32000CFDBE /* HomeWorkLesson3.3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +65,13 @@
 		9C00898527D20E32000CFDBE /* LessonWork3.3 */ = {
 			isa = PBXGroup;
 			children = (
-				9C00898627D20E32000CFDBE /* LessonWork3_3App.swift */,
+				9C00898627D20E32000CFDBE /* HomeWorkLesson3_3App.swift */,
+				9C00899C27D256D1000CFDBE /* DataManager.swift */,
 				9C00899427D21315000CFDBE /* TimeCounter.swift */,
 				9C00899827D22995000CFDBE /* RegisterView.swift */,
+				9C00899E27D2792A000CFDBE /* TimerView.swift */,
 				9C00899A27D23ED1000CFDBE /* StartedView.swift */,
+				9C0089A227D283CB000CFDBE /* ButtonView.swift */,
 				9C00898827D20E32000CFDBE /* ContentView.swift */,
 				9C00899627D21588000CFDBE /* UserManager.swift */,
 				9C00898A27D20E33000CFDBE /* Assets.xcassets */,
@@ -82,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C00898227D20E32000CFDBE /* LessonWork3.3 */ = {
+		9C00898227D20E32000CFDBE /* HomeWorkLesson3.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C00899127D20E33000CFDBE /* Build configuration list for PBXNativeTarget "LessonWork3.3" */;
+			buildConfigurationList = 9C00899127D20E33000CFDBE /* Build configuration list for PBXNativeTarget "HomeWorkLesson3.3" */;
 			buildPhases = (
 				9C00897F27D20E32000CFDBE /* Sources */,
 				9C00898027D20E32000CFDBE /* Frameworks */,
@@ -94,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = LessonWork3.3;
+			name = HomeWorkLesson3.3;
 			productName = LessonWork3.3;
-			productReference = 9C00898327D20E32000CFDBE /* LessonWork3.3.app */;
+			productReference = 9C00898327D20E32000CFDBE /* HomeWorkLesson3.3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C00897E27D20E32000CFDBE /* Build configuration list for PBXProject "LessonWork3.3" */;
+			buildConfigurationList = 9C00897E27D20E32000CFDBE /* Build configuration list for PBXProject "HomeWorkLesson3.3" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C00898227D20E32000CFDBE /* LessonWork3.3 */,
+				9C00898227D20E32000CFDBE /* HomeWorkLesson3.3 */,
 			);
 		};
 /* End PBXProject section */
@@ -152,9 +161,12 @@
 				9C00899527D21315000CFDBE /* TimeCounter.swift in Sources */,
 				9C00899927D22995000CFDBE /* RegisterView.swift in Sources */,
 				9C00899B27D23ED1000CFDBE /* StartedView.swift in Sources */,
+				9C00899D27D256D1000CFDBE /* DataManager.swift in Sources */,
 				9C00898927D20E32000CFDBE /* ContentView.swift in Sources */,
 				9C00899727D21588000CFDBE /* UserManager.swift in Sources */,
-				9C00898727D20E32000CFDBE /* LessonWork3_3App.swift in Sources */,
+				9C00899F27D2792A000CFDBE /* TimerView.swift in Sources */,
+				9C00898727D20E32000CFDBE /* HomeWorkLesson3_3App.swift in Sources */,
+				9C0089A327D283CB000CFDBE /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +310,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.LessonWork3-3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.HomeWorkLesson3-3";
+				PRODUCT_NAME = HomeWorkLesson3.3;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,8 +339,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.LessonWork3-3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.HomeWorkLesson3-3";
+				PRODUCT_NAME = HomeWorkLesson3.3;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C00897E27D20E32000CFDBE /* Build configuration list for PBXProject "LessonWork3.3" */ = {
+		9C00897E27D20E32000CFDBE /* Build configuration list for PBXProject "HomeWorkLesson3.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C00898F27D20E33000CFDBE /* Debug */,
@@ -347,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C00899127D20E33000CFDBE /* Build configuration list for PBXNativeTarget "LessonWork3.3" */ = {
+		9C00899127D20E33000CFDBE /* Build configuration list for PBXNativeTarget "HomeWorkLesson3.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C00899227D20E33000CFDBE /* Debug */,

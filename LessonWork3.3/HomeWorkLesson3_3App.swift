@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct LessonWork3_3App: App {
+struct HomeWorkLesson3_3App: App {
     @StateObject private var userManager = UserManager()
     
     var body: some Scene {
