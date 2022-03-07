@@ -20,6 +20,7 @@ struct ButtonView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.white)
         }
+        .buttonAppearance(color)
     }
 }
 

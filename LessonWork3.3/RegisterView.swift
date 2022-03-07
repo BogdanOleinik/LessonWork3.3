@@ -13,7 +13,7 @@ struct RegisterView: View {
     
     var body: some View {
         VStack {
-            ExtractedView(
+            UserNameTF(
                 name: $userManager.user.name,
                 nameIsValid: userManager.nameIsValid
             )
@@ -38,13 +38,7 @@ extension RegisterView {
     }
 }
 
-struct RegisterView_Previews: PreviewProvider {
-    static var previews: some View {
-        RegisterView()
-    }
-}
-
-struct ExtractedView: View {
+struct UserNameTF: View {
     
     @Binding var name: String
     var nameIsValid = false
@@ -64,3 +58,10 @@ struct ExtractedView: View {
         }
     }
 }
+
+struct RegisterView_Previews: PreviewProvider {
+    static var previews: some View {
+        RegisterView()
+    }
+}
+
